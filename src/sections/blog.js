@@ -8,7 +8,7 @@ import Post from 'components/cards/post';
 import mission from 'assets/images/blog/mission.jpg';
  import vision from 'assets/images/blog/vision.jpg';
  import about from 'assets/images/blog/about.png';
- import us from 'assets/images/blog/us.jpg';
+ import abouts from 'assets/images/blog/abouts.jpg';
 
 import news2 from 'assets/images/blog/2.png';
 import news3 from 'assets/images/blog/3.png';
@@ -57,7 +57,7 @@ const data = [
   },
   {
     id: 4,
-    image: us,
+    image: abouts,
     title: 'Evde Paketleme İşi Nedir ?',
     desc: `Evde paketlenmesini yapacağınız iş malzemelerinizi anlaşmalı olduğumuz
     kargo şirketi evinize bırakıp ürünlerini paketlemesi bittiğinde evinizden teslim alır
