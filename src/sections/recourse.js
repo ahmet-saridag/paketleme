@@ -106,7 +106,7 @@ const Support = () => {
 
     return (
         <section id="basvuru" sx={styles.section}>
-            <Container>
+            <Box sx={{ width: '75%', margin: '0 auto' }}>
                 <Heading as="h1">LÜTFEN BAŞVURU YAPMADAN ÖNCE AÇIKLAMAYI OKUYUNUZ
                     ÖNCELİKLE BAŞVURUNUN EVDE PAKETLEME İÇİN YAPILACAGINI BELİRTMEK İSTERİZ.</Heading>
                 <Text as="p" sx={{ margin: '50px 0 100px 0' }}>BAŞVURU SAHİBİNİN MOBİL BANKA KULLANMASI ZORUNLUDUR.
@@ -273,7 +273,7 @@ const Support = () => {
                         Başvur
                     </button>
                 </Grid>
-            </Container>
+            </Box>
         </section>
     );
 };

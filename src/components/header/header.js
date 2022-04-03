@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container } from 'theme-ui';
+import { jsx, Container, Box } from 'theme-ui';
 import { useState } from 'react';
 import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
@@ -34,7 +34,7 @@ export default function Header() {
           sx={styles.header}
           className={state.isSticky ? 'is-sticky' : ''}
         >
-          <Container sx={styles.container}>
+          <Box sx={{ width: '75%', margin: '0 auto', display:'flex' }}>
             <Logo sx={styles.logo} />
             <nav as="nav" sx={styles.navbar} className={'navbar'}>
               {menuItems.map(({ path, label }, i) => (
@@ -42,7 +42,7 @@ export default function Header() {
               ))}
             </nav>
             <NavbarDrawer />
-          </Container>
+          </Box>
         </header>
       </Sticky>
     </DrawerProvider>

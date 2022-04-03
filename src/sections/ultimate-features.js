@@ -140,7 +140,7 @@ const data = [
 const UltimateFeatures = () => {
   return (
     <section id="features" sx={styles.section}>
-      <Container>
+      <Box sx={{ width: '75%', margin: '0 auto' }}>
         <SectionHeading
           sx={styles.heading}
           slogan="Sizin için ideal olan çözüm"
@@ -151,7 +151,7 @@ const UltimateFeatures = () => {
             <Feature className="feature-item" key={item.id} data={item} />
           ))}
         </Box>
-      </Container>
+      </Box>
     </section>
   );
 };
