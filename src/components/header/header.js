@@ -34,7 +34,7 @@ export default function Header() {
           sx={styles.header}
           className={state.isSticky ? 'is-sticky' : ''}
         >
-          <Box sx={{ width: '75%', margin: '0 auto', display:'flex' }}>
+          <div sx={{ width: '75%', margin: '0 auto', display:'flex' }}>
             <Logo sx={styles.logo} />
             <nav as="nav" sx={styles.navbar} className={'navbar'}>
               {menuItems.map(({ path, label }, i) => (
@@ -42,7 +42,7 @@ export default function Header() {
               ))}
             </nav>
             <NavbarDrawer />
-          </Box>
+          </div>
         </header>
       </Sticky>
     </DrawerProvider>

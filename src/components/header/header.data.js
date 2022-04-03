@@ -1,7 +1,7 @@
 export default [
   {
     path: 'home',
-    label: 'Ana Sayfas',
+    label: 'Ana Sayfa',
   },
   {
     path: 'features',
