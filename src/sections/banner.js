@@ -9,7 +9,7 @@ import lcwaikiki from 'assets/images/lcwaikiki-icon.jpg';
 import pentiLogo from 'assets/images/penti-logo-2.png';
 import rixosLogo from 'assets/images/rixos-logo.jpg';
 
-const logos = [ 
+const logos = [
   {
     name: 'Rixos Logo',
     src: rixosLogo,
@@ -18,7 +18,7 @@ const logos = [
     name: 'Lc waikiki',
     src: lcwaikiki,
   },
- 
+
   {
     name: 'Penti Logo',
     src: pentiLogo,
@@ -29,11 +29,11 @@ const logos = [
 const Banner = () => {
   return (
     <Box as="section" id="home" sx={styles.section}>
-      <Container>
+      <Box sx={{ width: '75%', margin: '0 auto' }}>
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-               Paketlemenin en yaratıcı yönü
+              Paketlemenin en yaratıcı yönü
             </Heading>
             <Text as="p">
               Evde paketlemesini yapıcağınız iş malzemelerinizi anlaşmalı olduğumuz kargo şirketi evinize bırakıp ürünlerin paketlemesi evinizden teslim alır.            </Text>
@@ -50,7 +50,7 @@ const Banner = () => {
             </Flex>
           </Box>
         </Box>
-      </Container>
+      </Box>
     </Box>
   );
 };
