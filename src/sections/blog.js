@@ -8,7 +8,7 @@ import Post from 'components/cards/post';
 import mission from 'assets/images/blog/mission.jpg';
  import vision from 'assets/images/blog/vision.jpg';
  import about from 'assets/images/blog/about.png';
- import abouts from 'assets/images/blog/abouts.jpg';
+//  import abouts from 'assets/images/blog/abouts.jpg';
 
 import news2 from 'assets/images/blog/2.png';
 import news3 from 'assets/images/blog/3.png';
