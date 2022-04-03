@@ -57,7 +57,7 @@ const data = [
   },
   {
     id: 4,
-    image: abouts,
+    image: about,
     title: 'Evde Paketleme İşi Nedir ?',
     desc: `Evde paketlenmesini yapacağınız iş malzemelerinizi anlaşmalı olduğumuz
     kargo şirketi evinize bırakıp ürünlerini paketlemesi bittiğinde evinizden teslim alır
