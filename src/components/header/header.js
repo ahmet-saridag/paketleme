@@ -76,6 +76,8 @@ const styles = {
     display: ['none', null, null, null, 'flex'],
     alignItems: 'center',
     flexGrow: 1,
+    ml: 5,
+
     // justifyContent: 'center',
     a: {
       cursor: 'pointer',
